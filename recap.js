@@ -12,10 +12,10 @@ partners.pop();
 
 // conditionals
 if (bookPrice < 120) {
-    console.log('I will buy this book')
+    console.log('আমি বইটা কিনবো')
 }
 else {
-    console.log('Mama, kichu discount den na, apni na mama!');
+    console.log('মামা, কিছু ডিসকাউন্ট দেন না!! আপনি না মামা !');
 }
 
 // loop
