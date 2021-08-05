@@ -11,15 +11,15 @@
 // const myFactorial = getFactorial(6);
 // console.log(myFactorial);
 
-function getFactorial(number) {
-    let factorial = 1;
-    let i = number;
-    while (i >= 1) {
-        factorial = factorial * i;
-        i--;
-    }
-    return factorial;
-}
+// function getFactorial(number) {
+//     let factorial = 1;
+//     let i = number;
+//     while (i >= 1) {
+//         factorial = factorial * i;
+//         i--;
+//     }
+//     return factorial;
+// }
 
 // const myFactorial = getFactorial(6);
 // console.log(myFactorial);
@@ -34,5 +34,5 @@ function getFactorial2(number) {
     return factorial;
 }
 
-const myFactorial = getFactorial2(6);
+const myFactorial = getFactorial2(2);
 console.log(myFactorial);
