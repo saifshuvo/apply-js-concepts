@@ -1,7 +1,7 @@
-// const number = 4;
-// const remainder = number % 2;
-// console.log(remainder == 0); 
-// console.log(number % 2 == 0); 
+/* const number = 4;
+const remainder = number % 2;
+console.log(remainder == 0); 
+console.log(number % 2 == 0);  */
 
 
 function isEven(number) {
@@ -11,16 +11,18 @@ function isEven(number) {
     return false;
 }
 
-const myNumber = 1641;
+const myNumber = 1644;
 const isMyNumberEven = isEven(myNumber);
-console.log('is my number even ', isMyNumberEven)
+console.log('Is my number even? :', isMyNumberEven)
+
 
 const herNumber = 1892;
 const isHerNumberEven = isEven(herNumber);
-console.log('is her number even', isHerNumberEven);
+console.log('Is her number even? :', isHerNumberEven);
 
 
 // is odd function
+
 function isOdd(number) {
     if (number % 2 != 0) {
         return true;
@@ -29,7 +31,7 @@ function isOdd(number) {
 }
 
 const isMyNumberOdd = isOdd(myNumber);
-console.log('is my number odd', isMyNumberOdd);
+console.log('Is my number odd? :', isMyNumberOdd);
 
 const isHerNumberOdd = isOdd(herNumber);
-console.log('is her number odd', isHerNumberOdd);
+console.log('Is her number odd? :', isHerNumberOdd);

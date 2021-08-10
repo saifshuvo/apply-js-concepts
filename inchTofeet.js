@@ -5,7 +5,7 @@ function inchToFeet(inches) {
 
 var myInches = 132;
 var feet = inchToFeet(myInches);
-console.log('myInches in feet', feet);
+console.log(myInches ,'in feet', feet);
 
 var dadiInches = 144;
 var feet = inchToFeet(dadiInches);
